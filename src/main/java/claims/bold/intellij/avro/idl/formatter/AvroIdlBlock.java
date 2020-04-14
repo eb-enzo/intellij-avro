@@ -23,7 +23,7 @@ public class AvroIdlBlock extends AbstractBlock {
 
     private SpacingBuilder spacingBuilder;
     private static final Set<IElementType> ELEMENT_TYPES_TO_INDENT = Sets.newHashSet(
-            DECLARATOR, RECORD_DECL, ENUM_DECL, FIXED_DECL, ENUM_VALUE, MESSAGE_DECL, IMPORT_DECL
+            DECLARATOR, RECORD_DECL, ENUM_DECL, FIXED_DECL, ENUM_VALUE, MESSAGE_DECL, IMPORT_DECL, DOC_COMMENT
     );
 
     protected AvroIdlBlock(@NotNull ASTNode node, @Nullable Wrap wrap, @Nullable Alignment alignment,
